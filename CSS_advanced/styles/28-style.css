@@ -391,6 +391,22 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: var(--font-weight-bold);
 }
 
+/* 28. Fixing the header and menu navigation bar */
+.header {
+    padding: var(--header-padding);
+}
+
+.header-logo {
+    position: var(--header-logo-position);
+}
+
+.header-logo a {
+    display: var(--header-logo-link-display);
+    position: var(--header-logo-link-position);
+    top: var(--header-logo-link-top);
+    left: var(--header-logo-link-left);
+}
+
 /* 18. Customizing the navbar */
 .navbar-menu {
     float: right;
