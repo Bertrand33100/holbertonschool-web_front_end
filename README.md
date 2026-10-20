@@ -1,210 +1,128 @@
-# Advanced HTML
+# Projet Techium — Création d'une page d'accueil HTML et CSS
 
-## Présentation du projet
+## Description du projet
 
-- **Niveau :** Novice
-- **Auteur du projet :** David Dias, Senior Software Engineer chez HomeX
-- **Poids :** 1
-- **Formation :** Holberton School
-- **Dépôt GitHub :** `holbertonschool-web_front_end`
-- **Répertoire :** `html_advanced`
-- **Technologie principale :** HTML5
+Ce chapitre consiste à reproduire la maquette d'un site web d'agence digitale nommé **Techium**. L'objectif est de construire une page d'accueil organisée en plusieurs sections, en utilisant les langages HTML et CSS.
 
-## Description
-
-Ce projet a pour objectif d'apprendre à structurer une page web en utilisant les éléments HTML5.
-
-HTML (*HyperText Markup Language*) est un langage de balisage qui permet de définir la structure et le contenu d'une page web : titres, paragraphes, images, liens, listes, tableaux, vidéos et autres éléments.
-
-Le projet utilise **Techium** comme nom d'entreprise fictive pour construire les différentes pages web.
-
-L'objectif est de produire un HTML bien structuré, compréhensible, sémantique et conforme aux standards du Web.
-
-Ce projet se concentre uniquement sur HTML. Le CSS et la mise en forme visuelle ne sont pas demandés à ce stade. Une page peut donc paraître simple ou peu esthétique : c'est normal.
+Le projet permet de comprendre comment structurer une page web, organiser son contenu et présenter des informations de manière claire et cohérente.
 
 ## Objectifs pédagogiques
 
-À la fin de ce projet, je dois être capable d'expliquer et d'utiliser les notions suivantes sans avoir besoin de rechercher systématiquement les réponses sur Internet.
+- Comprendre la structure d'une page HTML.
+- Utiliser les balises sémantiques HTML5.
+- Organiser le contenu en sections distinctes.
+- Structurer une navigation entre les différentes parties du site.
+- Intégrer des images et du texte.
+- Utiliser CSS pour mettre en forme une page web.
+- Reproduire une maquette en respectant sa disposition visuelle.
+- Améliorer la lisibilité et la maintenabilité du code.
 
-### 1. Les bases du HTML
+## Structure de la page
 
-- Comprendre le rôle du HTML dans une page web.
-- Respecter les bonnes pratiques d'écriture du HTML.
-- Comprendre la structure générale d'un document HTML5.
-- Utiliser correctement le doctype.
-- Définir la langue du document et le sens de lecture.
-- Utiliser les balises ouvrantes et fermantes lorsque cela est nécessaire.
-- Respecter la casse, l'orthographe et l'imbrication des balises.
+La page d'accueil Techium est composée des sections suivantes :
 
-### 2. La structure d'une page HTML5
+### 1. Header — En-tête
 
-Connaître les principales balises qui constituent une page web :
+L'en-tête contient :
+- Le nom ou logo Techium.
+- Un menu de navigation.
+- Des liens vers les différentes sections du site.
 
-- `<!DOCTYPE html>` : indique que le document utilise le standard HTML.
-- `<html>` : élément racine du document.
-- `<head>` : contient les métadonnées et les ressources associées au document.
-- `<meta>` : définit des métadonnées.
-- `<title>` : définit le titre affiché dans l'onglet du navigateur.
-- `<link>` : permet notamment de relier une feuille de style.
-- `<body>` : contient le contenu de la page affiché à l'utilisateur.
+### 2. Hero — Bannière principale
 
-### 3. Le HTML sémantique
+Cette section présente le message principal du site :
 
-Comprendre pourquoi il est important de choisir des balises adaptées au rôle du contenu.
+**« We help you build your brand »**
 
-- `<header>` : représente une zone d'introduction ou d'en-tête.
-- `<main>` : représente le contenu principal de la page.
-- `<footer>` : représente le pied de page d'une section ou du document.
-- `<article>` : représente un contenu autonome.
-- `<nav>` : représente une zone de navigation.
-- `<section>` : regroupe un contenu thématique.
-- `<aside>` : représente un contenu complémentaire.
-- `<div>` : regroupe des éléments sans leur attribuer de signification sémantique particulière.
-- `<span>` : regroupe du contenu en ligne sans signification sémantique particulière.
+Elle comprend également un bouton d'appel à l'action « Get Started ».
 
-### 4. Les titres et les paragraphes
+### 3. Services
 
-- Utiliser les titres de `<h1>` à `<h6>`.
-- Respecter une hiérarchie logique des titres.
-- Structurer les paragraphes avec `<p>`.
-- Utiliser `<br>` pour un saut de ligne lorsque cela est pertinent.
-- Utiliser `<hr>` pour représenter une séparation thématique.
+Cette section présente les services proposés par l'agence :
+- Design & Concept
+- Digital Strategy
+- Content Strategy
+- UX Design
+- Web Development
+- Social Media
 
-### 5. Les listes
+### 4. Works — Portfolio
 
-- `<ul>` : crée une liste non ordonnée.
-- `<ol>` : crée une liste ordonnée.
-- `<li>` : représente un élément de liste.
+Cette partie affiche une sélection de réalisations à l'aide de plusieurs images.
 
-### 6. Les liens et les images
+### 5. About Us — À propos
 
-- `<a>` : crée un lien hypertexte.
-- `<img>` : intègre une image.
-- `href` : indique la destination d'un lien.
-- `src` : indique la source d'une image.
-- `alt` : fournit un texte alternatif à une image.
-- `<iframe>` : permet d'intégrer un autre document, par exemple une page externe lorsque son intégration est autorisée.
+Cette section présente l'agence, sa culture et sa méthode de travail, avec une image et plusieurs blocs de texte.
 
-### 7. Les médias
+### 6. Latest News — Dernières actualités
 
-Connaître les principales différences entre les formats d'image :
+Cette section présente trois articles comprenant :
+- Une image.
+- Une catégorie.
+- Un titre.
+- Une description.
+- Le nom de l'auteur.
 
-- **SVG** : format vectoriel adapté notamment aux icônes et aux illustrations.
-- **GIF** : format prenant en charge l'animation.
-- **PNG** : format matriciel prenant en charge la transparence.
-- **JPG/JPEG** : format matriciel couramment utilisé pour les photographies.
+### 7. Testimonials — Témoignages
 
-Savoir également intégrer des médias :
+Cette partie affiche les avis de clients, accompagnés de leurs portraits et de leurs noms.
 
-- `<video>` : intègre une vidéo.
-- `<audio>` : intègre un fichier audio.
-- `<source>` : permet de préciser une source média.
-- `<track>` : permet notamment d'ajouter des sous-titres à une vidéo.
+### 8. Contact
 
-### 8. Les tableaux
+Cette section invite les visiteurs à contacter l'agence grâce à un texte de présentation et à un bouton d'action.
 
-- `<table>` : définit un tableau.
-- `<caption>` : définit le titre du tableau.
-- `<thead>` : regroupe les lignes d'en-tête.
-- `<tbody>` : regroupe le corps du tableau.
-- `<tfoot>` : regroupe les informations de pied de tableau.
-- `<tr>` : définit une ligne.
-- `<th>` : définit une cellule d'en-tête.
-- `<td>` : définit une cellule de données.
+### 9. Footer — Pied de page
 
-### 9. Les bonnes pratiques
+Le pied de page contient :
+- Les coordonnées de l'agence.
+- Les liens vers les réseaux sociaux.
+- Les mentions légales.
+- Les liens vers la politique de confidentialité et la politique relative aux cookies.
 
-- Écrire un HTML valide et bien structuré.
-- Utiliser les balises selon leur fonction.
-- Respecter l'ordre logique des titres.
-- Fournir un texte alternatif pertinent aux images informatives.
-- Éviter les balises utilisées uniquement pour leur apparence lorsque des éléments sémantiques sont adaptés.
-- Vérifier le document avec le validateur W3C.
+## Technologies utilisées
 
-## Ressources
+- **HTML5** : structure et organisation du contenu.
+- **CSS3** : mise en forme, couleurs, espacements et disposition des éléments.
+- **Images** : illustration des projets, actualités et témoignages.
 
-### Documentation et références
+## Notions à retenir
 
-- [HTML 5.2](https://www.w3.org/TR/html52/)
-- [MDN — HTML : langage de balisage hypertexte](https://developer.mozilla.org/fr/docs/Web/HTML)
-- [MDN — Référence des éléments HTML](https://developer.mozilla.org/fr/docs/Web/HTML/Reference/Elements)
-- [Can I use](https://caniuse.com/) — vérification de la compatibilité des fonctionnalités web.
-- [W3C Validator](https://validator.w3.org/) — validation du code HTML.
-- [HTML Cheat Sheet — WebsiteSetup](https://websitesetup.org/)
+### HTML sémantique
 
-### Concepts Holberton
+Les balises sémantiques permettent de donner un sens aux différentes parties d'une page web.
 
-- [HTML — Elements of a Web Page](https://intranet.hbtn.io/concepts/870)
-- [Description du projet Advanced HTML](https://intranet.hbtn.io/projects/2138)
+Exemples :
+- `<header>` : en-tête.
+- `<nav>` : navigation.
+- `<main>` : contenu principal.
+- `<section>` : section thématique.
+- `<article>` : contenu autonome, comme un article de blog.
+- `<footer>` : pied de page.
 
-## Contraintes du projet
+### Organisation du contenu
 
-- Le fichier `README.md` doit être présent à la racine du répertoire `html_advanced`.
-- Le code doit respecter les standards HTML et être validé avec le validateur W3C lorsque la tâche le permet.
-- Le nom de l'entreprise utilisé dans les pages est **Techium**.
-- Les consignes de chaque tâche doivent être respectées précisément.
-- Les noms des balises, leurs attributs et leur imbrication doivent être vérifiés attentivement.
+Une page web doit être organisée de façon logique afin de faciliter sa lecture, sa compréhension et sa maintenance.
 
-## Organisation du projet
+### Séparation HTML et CSS
 
-```text
-holbertonschool-web_front_end/
-└── html_advanced/
-    ├── README.md
-    └── 0-index.html
-```
+HTML définit la structure du contenu, tandis que CSS contrôle sa présentation visuelle.
 
-Cette arborescence correspond au début du projet. Les autres fichiers HTML seront ajoutés au fur et à mesure des tâches.
+Cette séparation facilite les modifications et permet de réutiliser les styles.
 
-## Tâches
+## Compétences développées
 
-### Tâche 0 — Create your first webpage
+À la fin de ce chapitre, les compétences travaillées comprennent :
 
-**Fichier :** `0-index.html`
-
-**Objectif :** créer le premier document HTML5.
-
-#### Consignes
-
-1. Ajouter `<!DOCTYPE html>` sur la première ligne, sans commentaire avant.
-2. Ouvrir et fermer la balise `<html>`.
-3. Définir l'attribut `lang` avec la valeur `en`, correspondant à l'anglais.
-4. Définir l'attribut `dir` avec la valeur `ltr`, correspondant à une lecture de gauche à droite.
-5. Ouvrir le fichier dans un navigateur et vérifier que la page est blanche.
-
-#### Code attendu
-
-```html
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-</html>
-```
-
-#### Explication du code
-
-- `<!DOCTYPE html>` : déclare un document HTML moderne.
-- `<html>` : contient l'ensemble du document.
-- `lang="en"` : indique que la langue principale du document est l'anglais.
-- `dir="ltr"` : indique que le texte se lit de gauche à droite.
-- `</html>` : ferme l'élément racine.
-
-À cette première étape, le document ne contient ni `<head>` ni `<body>`. La consigne demande uniquement la structure minimale indiquée ci-dessus. Le validateur W3C peut signaler des éléments manquants : la consigne du projet autorise à ignorer cet échec pour cette tâche.
-
-## Méthode de travail
-
-Pour chaque tâche :
-
-1. Lire attentivement les consignes.
-2. Identifier les balises et les attributs demandés.
-3. Créer le fichier HTML attendu.
-4. Vérifier l'orthographe et la casse.
-5. Ouvrir le fichier dans un navigateur.
-6. Valider le HTML avec le W3C lorsque cela est demandé et applicable.
-7. Comparer le résultat aux exigences du projet.
-8. Enregistrer le travail dans Git et le publier sur GitHub selon les consignes de la formation.
+- La construction d'une page web structurée.
+- L'utilisation des balises HTML adaptées au contenu.
+- L'organisation d'une navigation.
+- L'intégration d'images et de textes.
+- La mise en page avec CSS.
+- La reproduction d'une interface à partir d'une maquette.
+- L'application de bonnes pratiques de développement web.
 
 ## Conclusion
 
-Ce projet constitue une première étape importante dans l'apprentissage du développement web front-end. Il permet d'acquérir les bases nécessaires pour structurer correctement une page web avant d'aborder la mise en forme avec CSS et l'interactivité avec JavaScript.
+Le projet Techium constitue une étape importante dans l'apprentissage du développement web. Il permet de mettre en pratique les bases du HTML et du CSS pour créer une page d'accueil complète, structurée et visuellement cohérente.
 
-L'objectif principal est de comprendre le rôle de chaque élément HTML et de savoir construire un document accessible, cohérent et conforme aux standards du Web.
+Ces compétences serviront de fondation pour réaliser des sites web plus complexes et aborder progressivement le responsive design, l'accessibilité et JavaScript.
